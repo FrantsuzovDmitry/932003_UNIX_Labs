@@ -1,10 +1,12 @@
-Программа работает с C/C++ файлами. На вход принимает файл указанного формата и на выходе сообщает, удалось ли его скомпилировать или нет. Предусмотрены следующие типовые ошибки:
+Программа работает с C/C++ файлами. На вход принимает файл указанного формата и на выходе сообщает, удалось ли его скомпилировать или нет. 
+Предусмотрены следующие типовые ошибки:
 1. Название выходного файла указано неверно (см. примечание 1)
 2. Файл невозможно скомпилировать в принципе (неверный формат)
 
 Примечание 1: формат записи комментария должен быть "// Output:[НАЗВАНИЕ]" (отсутствие пробела после двоеточия очень рекомендуется).
 
-The program works with C/C++ files. Accepts a file of the specified format as input and reports at the output whether it was compiled or not. The following typical errors are provided:
+The program works with C/C++ files. Accepts a file of the specified format as input and reports at the output whether it was compiled or not. 
+The following typical errors are provided:
 1. The name of the output file is incorrect (see note 1)
 2. The file cannot be compiled in principle (incorrect format)
 
