@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Outup:filename
+// Output:filename
 int main()
 {
     std::cout<<"Hello, world!\n"
