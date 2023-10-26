@@ -1,3 +1,4 @@
+#include <QObject>
 #include <QApplication>
 #include <QPushButton>
 #include <QLineEdit>
@@ -5,7 +6,7 @@
 #include <QWidget>
 
 int main(int argc, char* argv[]) {
-    
+
     QApplication app(argc, argv);                       // Initialization
 
     QWidget window;                                     // Some kind of Form
