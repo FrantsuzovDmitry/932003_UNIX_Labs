@@ -1,0 +1,18 @@
+Запуск:
+	1. Запустить скрипт buildImage.sh - он создаст Docker-образ (Dockerfile должен находиться в одной папке со скриптом)
+	2. Запустить контейнеры скриптом run с указанием количества контейнеров (например, "./run.sh 10") [чтобы запустить процессы в фоновом режиме, 
+	необходимо запустить скрипт runDetatched.sh(РЕКОМЕНДУЕТСЯ ЗАПУСКАТЬ ИМЕННО ЕГО)]
+	
+Другие скрипты:
+	3. clean.sh подчищает за собой (вызывается перед очередным запуском runDetached.sh)
+	4. script.sh устанавливает идентификатор контейнера, ищет первое незанятое имя файла, записывает в файл с этим именем свой id и само назавние файла. script.sh вызывается для каждого контейнера. Этот же файл он и удаляет с интервалом в 1 секунду.
+	
+	
+Launch:
+	1. Run the script buildImage.sh - it will create a Docker image (Dockerfile must be in the same folder as the script)
+	2. Launch containers with the run script specifying the number of containers (for example, "./run.sh 10") [to run processes in the background,
+you need to run the runDetatched.sh script (IT IS RECOMMENDED TO RUN THIS)]
+
+Other scripts:
+	3. clean.sh cleans up after itself (called before the next run of runDetached.sh)
+	4. script.sh sets the container identifier, searches for the first unoccupied file name, writes its id and the file name itself to the file with this name. script.sh is called for each container. It deletes the same file at intervals of 1 second
